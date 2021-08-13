@@ -1,3 +1,11 @@
 <div class="hero-mian">
-    <div class="hero-inner"></div>   
+    <div class="hero-inner" enterTheViewportNotifier (visibilityChange)="onVisibilityChange($event)"></div>
 </div>
+
+<!-- sticky btn -->
+<div id="stickBtn" class="sticky active" (scroll)="onScroll($event)" *ngIf="showbtn">
+  <a class="h-btn">
+    Meinen Preis berechnen
+  </a>
+</div>
+<!-- sticky btn -->
