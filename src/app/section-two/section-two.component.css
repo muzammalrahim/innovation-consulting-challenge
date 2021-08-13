@@ -71,6 +71,13 @@ p{
 
 
 /* For extremely small screen devices (595px and below) */
+
+@media (max-width: 1440px) {
+    .hero-bottom-content h3{
+        font-size: 50px;
+    }
+}
+
 @media (max-width: 1200px) {
     .hero-bottom-content h3 {
         font-size: 40px;
