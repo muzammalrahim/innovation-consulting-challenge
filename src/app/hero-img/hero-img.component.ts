@@ -35,7 +35,7 @@ export class HeroImgComponent implements OnInit {
         this.showbtn = true;
         btn.classList.toggle('active')
       }
-    }, 1000);
+    }, 500);
   }
 
 }
