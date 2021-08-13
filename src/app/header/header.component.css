@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+.headr-main{
+    padding: 20px 0 0 0;
+}
+.header-right{
+    float: right;
+}
+.header-right ul{
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+}
+a.h-phn{
+    color: #45b491; ;
+}
+.header-right ul li a.h-btn{
+    background: #45b491;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+.sec-main{
+    padding: 60px 0 70px 0;
+    
+}
+.sec-main h2{
+    font-size: 40px;
+    color: #1E3282;
+}
+.sec-main h3{
+    font-size: 25px;
+    color: #1E3282;
+
+}
+.sec-main .sec3-para{
+    font-size: 20px;
+    color: #1E3282;
+    line-height: 25px;
+}

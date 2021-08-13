@@ -1,0 +1,12 @@
+.hero-inner{
+    background: url(../../assets/images/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    min-height: 866px;
+    width: 100%;
+    background-position: center;
+}
+.hero-content{
+    position: relative;
+    bottom:95px;
+}

@@ -1,0 +1,43 @@
+a{
+    text-decoration: none !important;
+}
+.sec2-main{
+    background: #EBEFF9;
+    padding-bottom: 30px;
+}
+.banner-content{
+    position: relative;
+    bottom: 150px;
+}
+.hero-bottom-content{
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+}
+.hero-bottom-content h3{
+    font-size: 58px;
+    color: #1E3282;
+    margin: 0;
+}
+.hero-bottom-content p{
+    font-size: 25px;
+    color: #1E3282;
+}
+.hero-bottom-content a{
+    background: #45b491;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+/* sec two */
+.sec-inner h3{
+    font-size: 40px;
+    color: #1E3282;
+}
+p{
+    font-size: 20px;
+    color: #1E3282;
+    line-height: 25px;
+}
