@@ -10,6 +10,7 @@ import { HeroImgComponent } from './hero-img/hero-img.component';
 import { SectionTwoComponent } from './section-two/section-two.component';
 import { SectionThreeComponent } from './section-three/section-three.component';
 import { SectionFourComponent } from './section-four/section-four.component';
+import { EnterTheViewportNotifierDirective } from './enter-the-view-port.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SectionFourComponent } from './section-four/section-four.component';
     HeroImgComponent,
     SectionTwoComponent,
     SectionThreeComponent,
-    SectionFourComponent
+    SectionFourComponent,
+    EnterTheViewportNotifierDirective
   ],
   imports: [
     BrowserModule,
