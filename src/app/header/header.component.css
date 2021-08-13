@@ -12,6 +12,7 @@ a{
 }
 .header-right ul{
     list-style: none;
+    padding-left: 0;
 }
 .header-right ul li{
     display: inline-block;
@@ -24,4 +25,42 @@ a.h-phn{
     padding: 10px 10px;
     border-radius: 5px;
     color: #ffffff;
+}
+
+
+
+@media (max-width: 991px) {
+    .headr-main .px-5{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    a.h-btn{
+        background: none !important;
+        color: #1E3282 !important;
+        padding: 5px 0 0 0 !important;
+        font-size: 14px;
+    }
+    .header-right ul{
+        display: table;
+        text-align: right !important;
+    }
+    .header-right .phone-div{
+        display: table-footer-group !important;
+    }
+    .header-right ul li{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .logo{
+        width: 100px;
+    }
 }

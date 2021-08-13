@@ -16,4 +16,50 @@
 }
 .bottom-area {
     padding: 0 20px;
+    border-radius: 10px;
+}
+.bottom-area h5{
+    font-size: 25px;
+    position: relative;
+    bottom: 7px;
+}
+.bottom-area h4{
+    font-size: 40px;
+    color: #1E3282;
+    margin: 0;
+}
+.bottom-area .row{
+    align-items: center;
+}
+.bottom-area a{
+    background: #45b491;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+@media (max-width: 479px) {
+    .sec4-main h5{
+        font-size: 14px;
+    }
+    .sec4-main p{
+        display: none;
+    }
+    .b-para{
+        display: block !important;
+        font-size: 14px !important;
+    }
+    .bottom-area a{
+        display: none !important;
+    }
+    .bottom-area h4{
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+    .sec-b{
+        text-align: center;
+    }
+
 }
