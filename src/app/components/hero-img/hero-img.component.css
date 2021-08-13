@@ -48,4 +48,16 @@ div.active {
   opacity: 0;
   height: 0;
 }
-
+@media(max-width: 375px){
+  .sticky {
+    left:17%;
+  }
+}
+@media(max-width: 479px){
+  .sticky {
+    left:14%;
+  }
+  .hero-mian img{
+    height: 360px;
+  }
+}

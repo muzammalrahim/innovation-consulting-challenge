@@ -5,11 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { HeroImgComponent } from './hero-img/hero-img.component';
-import { SectionTwoComponent } from './section-two/section-two.component';
-import { SectionThreeComponent } from './section-three/section-three.component';
-import { SectionFourComponent } from './section-four/section-four.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HeroImgComponent } from './components/hero-img/hero-img.component';
+import { SectionTwoComponent } from './components/section-two/section-two.component';
+import { SectionThreeComponent } from './components/section-three/section-three.component';
+import { SectionFourComponent } from './components/section-four/section-four.component';
 import { EnterTheViewportNotifierDirective } from './enter-the-view-port.directive';
 
 @NgModule({
