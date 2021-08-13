@@ -17,3 +17,38 @@
 .bottom-area {
     padding: 0 20px;
 }
+
+.h-btn {
+  background: #45b491;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.sticky {
+  width: 250px;
+  margin: auto;
+  position: fixed;
+  bottom: 20px;
+  left:44%;
+  right:48%;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+}
+
+#stickBtn {
+  opacity: 1;
+  height: auto;
+}
+div.active {
+  animation-name: wipe-enter;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  opacity: 0;
+  height: 0;
+}

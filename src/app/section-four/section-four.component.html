@@ -10,7 +10,7 @@
         <div class="row text-center pb-4">
             <div class="col-md-6 col-sm-12">
                 <h5>
-                    Woran Du vielleicht denkst 
+                    Woran Du vielleicht denkst
                 </h5>
                 <p>
                     (kleine Schäden)
@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <h5>
-                    Woran Du vielleicht nicht denkst 
+                    Woran Du vielleicht nicht denkst
                 </h5>
                 <p>
                     (große Schäden)
@@ -42,17 +42,23 @@
                    </h4>
                    <p>
                         pro Monat
-                   </p> 
+                   </p>
                 </div>
                 <div class="col-sm-3">
                     <a>
-                        Meinen Preis berechnen 
+                        Meinen Preis berechnen
                     </a>
                 </div>
             </div>
         </div>
-         <!-- bottom area -->
-
+        <!-- bottom area -->
+      </div>
     </div>
-</div>
+    <!-- sticky btn -->
+    <div id="stickBtn" class="sticky active" (scroll)="onScroll($event)" *ngIf="showbtn">
+      <a class="h-btn">
+        Meinen Preis berechnen
+      </a>
+    </div>
+    <!-- sticky btn -->
 
