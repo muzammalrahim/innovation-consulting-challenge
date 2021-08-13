@@ -1,22 +1,24 @@
-.hero-inner{
+/* .hero-inner{
     background: url(../../assets/images/hero.jpg);
     background-size: cover;
     height: 100vh;
     min-height: 866px;
     width: 100%;
     background-position: center;
-}
+} */
 .hero-content{
     position: relative;
     bottom:95px;
 }
 
-.h-btn {
+.hero-btn {
   background: #45b491;
   padding: 10px 10px;
   border-radius: 5px;
   color: #ffffff;
   font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .sticky {

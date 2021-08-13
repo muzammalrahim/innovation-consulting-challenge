@@ -42,20 +42,14 @@
 
 .card-price {
 	display: inline-block;
-  
-  width: auto;
+    bottom: 25px;
+    width: 110px;
 	height: 38px;
-	
 	background-color: #fff;
-	-webkit-border-radius: 3px 4px 4px 3px;
-	-moz-border-radius: 3px 4px 4px 3px;
-	border-radius: 3px 4px 4px 3px;
-	
+	border-radius: 5px;
 	border-left: 1px solid #fff;
-
 	/* This makes room for the triangle */
 	margin-left: 19px;
-	
 	position: relative;
 	
 	color: red;
@@ -78,6 +72,14 @@
 	border-top: 13px solid transparent;
 	border-bottom: 13px solid transparent;
 	border-right: 19px solid #fff;
+}
+.card-price2{
+    background: red !important;
+    color: #fff !important;
+}
+.card-price2:before {
+    
+    border-right: 19px solid red !important;
 }
 
 

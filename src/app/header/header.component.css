@@ -1,8 +1,13 @@
 a{
     text-decoration: none;
 }
+.headr-main .row{
+    align-items: center;
+}
 .logo{
-    width: 133px;
+    width: 100px;
+    position: relative;
+    bottom: 10px;
 }
 .headr-main{
     padding: 20px 0 0 0;
@@ -18,13 +23,25 @@ a{
     display: inline-block;
 }
 a.h-phn{
-    color: #45b491; ;
+    color: #45b491; 
+    font-size: 20px;
 }
+.phone{
+    width: 20px;
+    position: relative;
+    bottom: 2px;
+}
+
+/* .phone-div{
+    display: flex !important;
+    align-items: center;
+} */
 .header-right ul li a.h-btn{
     background: #45b491;
     padding: 10px 10px;
     border-radius: 5px;
     color: #ffffff;
+    font-size: 20px;
 }
 
 
