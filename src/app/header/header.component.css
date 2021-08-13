@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+.logo{
+    width: 133px;
+}
 .headr-main{
     padding: 20px 0 0 0;
 }

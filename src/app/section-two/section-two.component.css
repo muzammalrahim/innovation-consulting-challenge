@@ -12,6 +12,32 @@ a{
 .hero-bottom-content{
     padding: 20px 0 20px 0;
     border-radius: 10px;
+    position: relative;
+}
+.circle-price{
+    background: #F59114;
+    width: 140px;
+    height: 140px;
+    border-radius:50% ;
+    position: absolute;
+    right: -60px;
+    top: -112px;
+    opacity: 0.9;
+}
+.circle-text{
+    transform: rotate(
+45deg
+);
+    padding: 20px 0 0 30px;
+}
+.circle-price h6{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0;
+}
+.circle-price h5{
+    color: #ffffff;
+    font-size: 35px;
 }
 .hero-bottom-content h3{
     font-size: 58px;
@@ -40,4 +66,82 @@ p{
     font-size: 20px;
     color: #1E3282;
     line-height: 25px;
+}
+
+
+
+/* For extremely small screen devices (595px and below) */
+@media (max-width: 1200px) {
+    .hero-bottom-content h3 {
+        font-size: 40px;
+    }
+    .hero-bottom-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-bottom-content h3 {
+        font-size: 30px;
+    }
+    .banner-content {
+        bottom: 115px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .sec-inner{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .hero-bottom-content h3 {
+        font-size: 22px;
+    }
+    .sec-inner h3 {
+        font-size: 20px;
+    }
+    .sec-inner p {
+        font-size: 14px;
+    }
+    .hero-bottom-content.mx-5{
+        margin-left: 0rem!important;
+        margin-right: 0rem!important;
+    }
+    .sec-inner .px-5{
+        padding-right: 0rem!important;
+        padding-left: 0rem!important;
+    }
+    .sec-inner img{
+        width: 90%;
+    }
+    .circle-price {
+        width: 100px;
+        height: 100px;
+        right: -11px;
+        top: -120px;
+    }
+    .circle-price h5 {
+        font-size: 22px;
+    }
+    .circle-text {
+        padding: 10px 0 0 25px;
+    }
+}
+
+@media (max-width: 479px) {
+    .banner-content .px-5{
+        padding-right: 0rem!important;
+        padding-left: 0rem!important;
+    }
+    .banner-content {
+        bottom: 90px;
+    }
+    .circle-price {
+        right: 5px;;
+    }
+    
 }
