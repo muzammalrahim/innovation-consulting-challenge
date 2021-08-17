@@ -3,7 +3,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 @Component({
   selector: 'app-hero-img',
   templateUrl: './hero-img.component.html',
-  styleUrls: ['./hero-img.component.css']
+  styleUrls: ['./hero-img.component.scss']
 })
 export class HeroImgComponent implements OnInit {
   showbtn = false;

@@ -3,7 +3,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 @Component({
   selector: 'app-section-four',
   templateUrl: './section-four.component.html',
-  styleUrls: ['./section-four.component.css']
+  styleUrls: ['./section-four.component.scss']
 })
 export class SectionFourComponent implements OnInit {
 
