@@ -1,11 +1,10 @@
-<div class="hero-mian">
-    <img enterTheViewportNotifier (visibilityChange)="onVisibilityChange($event)" class="w-100" src="../../assets/images/hero.jpg">
-    <div class="hero-inner"></div>
+<div class="hero-section">
+  <img class="w-100 hero-section__img" src="../../assets/images/hero.jpg" enterTheViewportNotifier (visibilityChange)="onVisibilityChange($event)">
 </div>
 
 <!-- sticky btn -->
-<div id="stickBtn" class="sticky active text-center d-flex justify-content-center" (scroll)="onScroll($event)" *ngIf="showbtn">
-  <a class="h-btn hero-btn">
+<div id="sticky-btn" class="sticky-btn__animation active text-center d-flex justify-content-center" (scroll)="onScroll($event)" *ngIf="showBtn">
+  <a class="sticky-btn__link">
     Meinen Preis berechnen
   </a>
 </div>

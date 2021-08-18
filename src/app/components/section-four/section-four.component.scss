@@ -1,4 +1,4 @@
-.sec4-main{
+.sectionFour{
   background-color: #EBEFF9;
   padding: 90px 0 50px 0;
   h3{
@@ -14,7 +14,7 @@
     color: #1E3282;
   }
 }
-.bottom-area {
+.sectionFour__banner {
   padding: 0 20px;
   border-radius: 10px;
   h5{
@@ -38,7 +38,7 @@
     font-size: 20px;
   }
 }
-.card-price {
+.sectionFour__priceTag {
 	display: inline-block;
   bottom: 25px;
   width: 110px;
@@ -69,7 +69,7 @@
   }
 }
 
-.card-price2{
+.sectionFour__priceTag-red{
   background: red !important;
   color: #fff !important;
   &:before {
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 479px) {
-  .sec4-main {
+  .sectionFour {
     h5{
       font-size: 14px;
     }
@@ -86,23 +86,23 @@
       display: none;
     }
   }
-  .b-para{
-    display: block !important;
-    font-size: 14px !important;
-  }
-  .bottom-area {
+  .sectionFour__banner {
     h4{
       font-size: 28px;
       padding-bottom: 5px;
     }
-  }
-  .sec-b{
-    text-align: center;
+    p{
+      display: block !important;
+      font-size: 14px !important;
+    }
+    .sectionFour__banner-price{
+      text-align: center;
+    }
   }
 }
 
 @media (max-width: 1199px) {
-  .bottom-area{
+  .sectionFour__banner{
     a{
       display: none !important;
     }

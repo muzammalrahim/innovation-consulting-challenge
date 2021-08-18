@@ -6,9 +6,8 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./hero-img.component.scss']
 })
 export class HeroImgComponent implements OnInit {
-  showbtn = false;
+  showBtn = false;
   heroVisible: boolean;
-  timeout: number;
   constructor() { }
 
   ngOnInit(): void {
@@ -16,11 +15,9 @@ export class HeroImgComponent implements OnInit {
 
   onVisibilityChange(e) {
     if(e === 'HIDDEN') {
-      // this.showbtn = true;
       this.heroVisible = false;
     }
     else{
-      // this.showbtn = false;
       this.heroVisible = true;
     }
   }
@@ -28,11 +25,10 @@ export class HeroImgComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onScroll(e) {
     var btn = document.getElementById('stickBtn');
-    this.showbtn = false;
-    clearTimeout(this.timeout);
+    this.showBtn = false;
     setTimeout(() => {
       if(this.heroVisible === false){
-        this.showbtn = true;
+        this.showBtn = true;
         btn.classList.toggle('active')
       }
     }, 500);

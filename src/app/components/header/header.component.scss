@@ -1,61 +1,42 @@
-a {
-  text-decoration: none;
-}
-.headr-main {
+.header {
   padding: 20px 0 0 0;
   .row{
     align-items: center;
   }
-}
-.logo{
-  width: 100px;
-  position: relative;
-  bottom: 10px;
-}
-.header-right{
-  float: right;
-}
-.header-right {
-  ul {
-    list-style: none;
-    padding-left: 0;
+  .header-logo{
+    width: 100px;
+    position: relative;
+    bottom: 10px;
   }
-}
-.header-right {
-  ul {
-    li {
-      display: inline-block;
-    }
-  }
-}
-a.h-phn{
-    color: #45b491;
-    font-size: 20px;
-}
-.phone{
-  width: 20px;
-  position: relative;
-  bottom: 2px;
-}
-
-.header-right{
-  ul {
-    li {
-      a.h-btn {
-        background: #45b491;
-        padding: 10px 10px;
-        border-radius: 5px;
-        color: #ffffff;
-        font-size: 20px;
+  .header__right{
+    float: right;
+    .header__ul {
+      list-style: none;
+      padding-left: 0;
+      .header__li {
+        display: inline-block;
+        .header__li-btn {
+          background: #45b491;
+          padding: 10px 10px;
+          border-radius: 5px;
+          color: #ffffff;
+          font-size: 20px;
+        }
+        .header__li-link{
+          color: #45b491;
+          font-size: 20px;
+        }
+        .header__li-icon{
+          width: 20px;
+          position: relative;
+          bottom: 2px;
+        }
       }
     }
   }
 }
-
-
-
 @media (max-width: 991px) {
-  .headr-main {
+  .header {
     .px-5{
       padding-left: 0 !important;
       padding-right: 0 !important;
@@ -64,38 +45,31 @@ a.h-phn{
 }
 
 @media (max-width: 767px) {
-  a.h-btn{
-    background: none !important;
-    color: #1E3282 !important;
-    padding: 5px 0 0 0 !important;
-    font-size: 14px;
-  }
-  .header-right {
-    ul {
+  .header__right {
+    .header__ul {
       display: table;
       text-align: right !important;
-    }
-  }
-  .header-right {
-    .phone-div {
-      display: table-footer-group !important;
-    }
-  }
-  .header-right{
-    ul {
-      li {
+      .header__li {
         display: block;
+        &.header__li--mod {
+          display: table-footer-group !important;
+        }
+        .header__li-icon{
+          display: none;
+        }
+        .header__li-btn{
+          background: none !important;
+          color: #1E3282 !important;
+          padding: 5px 0 0 0 !important;
+          font-size: 14px;
+        }
       }
     }
   }
-  .phone{
-    display: none;
-  }
-
 }
 
 @media (max-width: 767px) {
-  .logo{
+  .header-logo{
     width: 100px;
   }
 }

@@ -1,26 +1,24 @@
-.hero-content{
-  position: relative;
-  bottom:95px;
-}
-
-.hero-btn {
-  background: #45b491;
-  padding: 10px 10px;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 20px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.sticky {
+#sticky-btn {
   width: 250px;
   margin: auto;
   position: fixed;
   bottom: 20px;
   left:44%;
   right:48%;
+  opacity: 1;
+  height: auto;
+  z-index: 4;
+  .sticky-btn__link {
+    background: #45b491;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
+
 
 @keyframes wipe-enter {
 	0% {
@@ -28,12 +26,7 @@
 	}
 }
 
-#stickBtn {
-  opacity: 1;
-  height: auto;
-  z-index: 4;
-}
-div {
+.sticky-btn__animation {
   &.active {
     animation-name: wipe-enter;
     animation-duration: 1s;
@@ -42,18 +35,19 @@ div {
     height: 0;
   }
 }
-@media(max-width: 375px){
-  .sticky {
-    left:17%;
-  }
-}
 @media(max-width: 479px){
-  .sticky {
+  #sticky-btn {
     left:14%;
   }
-  .hero-mian {
-    img {
+  .hero-section {
+    .hero-section__img {
       height: 360px;
     }
   }
 }
+@media(max-width: 375px){
+  #sticky-btn {
+    left:17%;
+  }
+}
+

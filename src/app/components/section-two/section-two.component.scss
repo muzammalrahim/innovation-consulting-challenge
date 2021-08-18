@@ -1,15 +1,12 @@
-a{
-  text-decoration: none !important;
-}
-.sec2-main{
+.sectionTwo{
   background: #EBEFF9;
   padding-bottom: 30px;
-}
-.banner-content{
+  .sectionTwo__banner{
     position: relative;
     bottom: 150px;
+  }
 }
-.hero-bottom-content {
+.sectionTwo__banner-content {
   padding: 20px 0 20px 0;
   border-radius: 10px;
   position: relative;
@@ -30,7 +27,7 @@ a{
     font-size: 20px;
   }
 }
-.circle-price{
+.sectionTwo__banner-circle{
   background: #F59114;
   width: 140px;
   height: 140px;
@@ -48,14 +45,14 @@ a{
     color: #ffffff;
     font-size: 35px;
   }
-}
-.circle-text{
-  transform: rotate(45deg);
-  padding: 20px 0 0 30px;
+  .circle-text{
+    transform: rotate(45deg);
+    padding: 20px 0 0 30px;
+  }
 }
 
 /* sec two */
-.sec-inner {
+.sectionTwo__inner {
   h3 {
     font-size: 40px;
     color: #1E3282;
@@ -68,7 +65,7 @@ p {
 }
 
 @media (max-width: 1440px) {
-  .hero-bottom-content {
+  .sectionTwo__banner-content {
     h3 {
       font-size: 50px;
     }
@@ -76,7 +73,7 @@ p {
 }
 
 @media (max-width: 1200px) {
-  .hero-bottom-content {
+  .sectionTwo__banner-content {
     h3 {
       font-size: 40px;
     }
@@ -87,25 +84,25 @@ p {
 }
 
 @media (max-width: 1024px) {
-  .hero-bottom-content {
+  .sectionTwo__banner-content {
     h3 {
       font-size: 30px;
     }
   }
-  .banner-content {
+  .sectionTwo__banner {
     bottom: 115px;
   }
 }
 
 
 @media (max-width: 991px) {
-  .sec-inner{
+  .sectionTwo__inner{
     text-align: center;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-bottom-content {
+  .sectionTwo__banner-content {
     h3 {
       font-size: 22px;
     }
@@ -114,7 +111,7 @@ p {
       margin-right: 0rem!important;
     }
   }
-  .sec-inner {
+  .sectionTwo__inner {
     h3 {
       font-size: 20px;
     }
@@ -129,7 +126,7 @@ p {
       width: 90%;
     }
   }
-  .circle-price {
+  .sectionTwo__banner-circle {
     width: 100px;
     height: 100px;
     right: -11px;
@@ -137,21 +134,21 @@ p {
     h5 {
       font-size: 22px;
     }
-  }
-  .circle-text {
-    padding: 10px 0 0 25px;
+    .circle-text {
+      padding: 10px 0 0 25px;
+    }
   }
 }
 
 @media (max-width: 479px) {
-  .banner-content {
+  .sectionTwo__banner {
     bottom: 90px;
     .px-5{
       padding-right: 0rem!important;
       padding-left: 0rem!important;
     }
   }
-  .circle-price {
+  .sectionTwo__banner-circle {
     right: 5px;;
   }
 }
